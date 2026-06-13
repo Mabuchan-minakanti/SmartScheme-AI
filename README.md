@@ -6,7 +6,7 @@ SmartScheme AI helps Indian citizens discover, understand, and apply for governm
 
 ## Features
 
-- 🎤 **Voice Interaction** — Speak in English, Telugu, or Hindi; system responds in the same language
+- 🗣️ **Voice Interaction** — Speak in English, Telugu, or Hindi; system responds in the same language
 - 🔍 **AI Scheme Discovery** — Answer a few questions to find schemes you're eligible for
 - 💬 **Conversational Assistant** — Ask questions naturally about any government scheme
 - ✅ **Eligibility Checker** — Check if you're eligible for specific schemes with detailed reasoning
