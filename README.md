@@ -2,7 +2,16 @@
 
 **Voice-First Multilingual Government Scheme Assistant**
 
-SmartScheme AI helps Indian citizens discover, understand, and apply for government welfare schemes through voice or text in their own language. Designed for senior citizens, farmers, rural users, and people with low digital literacy.
+## Problem Statement
+
+Millions of Indian citizens—especially senior citizens, farmers, and rural communities—struggle to access and understand government welfare schemes due to:
+- **Language barriers** (schemes documented in English/complex language)
+- **Digital literacy gaps** (complex forms and interfaces)
+- **Information overload** (uncertainty about eligibility)
+- **Accessibility challenges** (no voice-based interaction for benefits discovery)
+- **Low adoption** of digital government services
+
+**SmartScheme AI** solves this by providing a voice-first, conversational AI assistant that helps citizens discover, understand, and apply for government schemes in their own language.
 
 ## Features
 
@@ -16,16 +25,31 @@ SmartScheme AI helps Indian citizens discover, understand, and apply for governm
 
 ## Tech Stack
 
-| Component | Technology |
-|-----------|-----------|
-| Frontend | Streamlit |
-| AI Providers | Ollama (local), OpenAI, Gemini (BYOK) |
-| Vector Database | ChromaDB |
-| Embeddings | sentence-transformers (multilingual) |
-| Speech-to-Text | faster-whisper |
-| Text-to-Speech | edge-tts |
-| PDF Processing | PyMuPDF |
-| Translations | JSON-based i18n system |
+### Frontend & UI
+- **Streamlit** — Rapid web application framework for data apps
+
+### AI & LLM
+- **Ollama** — Local LLM inference (llama3, qwen3, gemma3)
+- **OpenAI** — GPT-based models (bring your own key)
+- **Google Gemini** — Gemini API integration (bring your own key)
+
+### Natural Language Processing
+- **sentence-transformers** — Multilingual embeddings for semantic search
+- **faster-whisper** — Speech-to-text transcription (multilingual)
+- **edge-tts** — Text-to-speech synthesis
+
+### Data & Retrieval
+- **ChromaDB** — Vector database for scheme embeddings and retrieval
+- **PyMuPDF** — PDF document processing and extraction
+
+### Localization & Languages
+- **Custom i18n System** — JSON-based translations (English, Hindi, Telugu)
+- **Language Support** — English, Hindi (हिन्दी), Telugu (తెలుగు)
+
+### Core Libraries
+- **Python 3.x** — Backend runtime
+- **pandas** — Data processing
+- **requests** — HTTP client for API calls
 
 ## Quick Start
 
